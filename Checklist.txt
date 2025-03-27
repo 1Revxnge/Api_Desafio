@@ -1,0 +1,16 @@
+RF01: O sistema deve permitir o cadastro de clientes com os seguintes dados: Nome,
+CPF, Data de Nascimento e Endereço; 
+
+RF03: O sistema deve permitir a exclusão de um cliente cadastrado;
+RF04: O sistema deve permitir a listagem de todos os clientes cadastrados
+
+RF06: O sistema deve permitir o cadastro de contatos para um cliente, contendo os
+seguintes dados: Tipo do Contato (Telefone, E-mail), Valor do Contato (número ou email) e Observação;
+
+
+RN01: Os campos Nome e CPF são obrigatórios no cadastro do cliente;
+RN02: Os campos Tipo do Contato e Valor do Contato são obrigatórios no cadastro do
+contato;
+RN04: O Nome do cliente não pode estar vazio;
+RN05: A Data de Nascimento deve ser válida;
+RN07: Ao excluir um cliente, todos os seus contatos devem ser removidos do sistema;
